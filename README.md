@@ -67,9 +67,7 @@ From the HTML elements only the temperature text must remain. All other HTML ele
 
 **FIRST TASK (CSS):** Add to the hardware.css file the required hardware css selectors.   
     
-Examples:
-
-Make a HTML button physical. 
+Example 1:Make a HTML button physical. 
 ```html
 <button id="myInput"> BUTTON TEXT </button>
 ```
@@ -80,7 +78,7 @@ hardware.css
 }
 ```
 
-Make a range slider interact with a i2c potentiometer
+Example 2: Make a range slider interact with a i2c potentiometer
 ```html
 <input type="range" id="mySensor" min="0" max="10" step="1" value="0">
 ```
@@ -111,7 +109,7 @@ Is your task to figure out the electrical component name (e.g., physical-button)
 | serial    | "/dev/ttyS0"    |
 
 
-
+**SECOND TASK (EAGLE):** TODO
 
 
 
