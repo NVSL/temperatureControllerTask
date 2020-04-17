@@ -1,5 +1,5 @@
 # Temperature Controller Task
-You have the task of building a temperature controller system that will eventually replace my old line of controllers for [glass door coolers](http://tor-rey-refrigeration.com/glass-door-coolers/). You will build the temperature controller using two different web tools: Amalgam and Appliancizer. 
+You have the task of building a temperature controller system that will eventually replace my old line of controllers for <a href="http://tor-rey-refrigeration.com/glass-door-coolers/" target="_blank">glass door coolers</a>. You will build the temperature controller using two different web tools: Amalgam and Appliancizer. 
 
 ## Temperature Controller Software Requirements (Measure the time you spent building the software)
 First you are required to simulate the temperature controller using plain HTML, CSS and Javascript. The software requirements are:
