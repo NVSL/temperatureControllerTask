@@ -5,11 +5,11 @@ You have the task of building a temperature controller system that will eventual
 ## Temperature Controller Software Requirements (Measure the time you spent building the software)
 First, you are required to simulate the temperature controller using plain HTML, CSS, and Javascript. The software requirements are:  
 
-1.- A **\<div\> or \<span\>** text that shows the temperature in Celsius (e.g., 25°C).
-2.- A **\<input\>** of type range or slider that simulates the temperature input from a sensor from -40°C to +125°C.
-3.- A **\<button\>** that will trigger the *temperature set mode* and move the temperature set point up (+1 °C)
-4.- A **\<button\>** that will trigger the *temperature set mode* and move the temperature set point down (-1 °C)
-5.- A **\<span\>** text that will show "ON" if the temperature is greater than the temperature setpoint, else OFF.
+1.- A **\<div\> or \<span\>** text that shows the temperature in Celsius (e.g., 25°C).    
+2.- A **\<input\>** of type range or slider that simulates the temperature input from a sensor from -40°C to +125°C.   
+3.- A **\<button\>** that will trigger the *temperature set mode* and move the temperature set point up (+1 °C).   
+4.- A **\<button\>** that will trigger the *temperature set mode* and move the temperature set point down (-1 °C).    
+5.- A **\<span\>** text that will show "ON" if the temperature is greater than the temperature setpoint, else OFF.    
     
 Initial temperature set point: 25°C  
 
