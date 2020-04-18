@@ -63,7 +63,7 @@ From the HTML elements only the temperature text must remain. All other HTML ele
 2.- (Physical temp sensor) A __\<input\>__ of type range or slider that simulates the temperature input from a sensor from -40°C to +125°C.    
 3.- (Physical Button) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point up (+1 °C)    
 4.- (Physical Button) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point down (-1 °C)   
-5.- (Physical Button) A __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". 
+5.- (Physical led) A __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". 
 
 
 **FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam.   
