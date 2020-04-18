@@ -119,6 +119,6 @@ Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amal
 
 ## Building the Temperature Controller with Appliancizer (Measure the time you spent using appliancizer until you download the PCB)
 
-Appliancizer website: https://appliancizer.com/ 
-Choose any screen size.   
-Save the generated zip files in ```Your_Name/amalgamApp/applaincizerZip```. 
+Appliancizer website: https://appliancizer.com/     
+- Choose any screen size.      
+- Save the generated zip files in ```Your_Name/amalgamApp/applaincizerZip```.    
