@@ -19,7 +19,7 @@ Recomendations:
 - Use the app.html template found in (TODO) which you will use in the next step. 
 - All html in bold must have an id attribute.
 - No CSS needed, don't focus styling your app.
-- Check setInterval(), clearInterval(), setTimeout() and clearTiemout() for the timers.
+- Check JS functions ```setInterval()```, ```clearInterval()```, ```setTimeout()``` and ```clearTiemout()``` for the timers.
 - You can start with these snippets for input, button and span:   
     
     
@@ -109,12 +109,13 @@ Is your task to figure out the electrical component name (e.g., physical-button)
 | serial    | "/dev/ttyS0"    |
 
 
-**SECOND TASK (EAGLE):** TODO
+**SECOND TASK (EAGLE):** 
+
+For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. Only the ealge temperature part (mcp9808) is provided, figure out which other parts you need and how make the connections that match the ```hardware.css``` file. 
 
 
 
+## Building the Temperature Controller with Appliancizer (Measure the time you spent using appliancizer until you download the PCB)
 
- 
-
-
-
+Appliancizer website: https://appliancizer.com/ 
+Choose any screen size. 
