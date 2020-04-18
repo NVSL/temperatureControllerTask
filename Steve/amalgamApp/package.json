@@ -1,0 +1,15 @@
+{
+  "name": "user-amalgam-app",
+  "description": "User Amalgam App",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "css": "^2.2.4",
+    "jquery": "^3.4.1",
+    "linuxduino": "^0.2.0"
+  },
+  "scripts": {
+    "app": "sudo DISPLAY=:0 electron . --no-sandbox"
+  },
+  "private": true
+}
