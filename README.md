@@ -59,11 +59,11 @@ myOutput.innerText = "ON";
 After completing simulating the temerature controller in ```Your_Name/amalgamApp/app.html``` it's time to indicate to the Amalgam tool which HTML elements you want them to be physical. The physcial electrical components will interact with a raspberry Pi 2/3/4 connector. 
 
 From the HTML elements only the temperature text must remain. All other HTML elements must be physical.   
-1.- (ON SCREEN) A __\<div\> or \<span\>__ text that shows the temperature in Celsius (e.g., 25°C).   
-2.- (PHYSICAL TEMP SENSOR) A __\<input\>__ of type range or slider that simulates the temperature input from a sensor from -40°C to +125°C.    
-3.- (PHYSCIAL BUTTON) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point up (+1 °C)    
-4.- (PHYSICAL BUTTON) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point down (-1 °C)   
-5.- (PHYSCIAL LED) A __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". 
+1.- (On Screen) A __\<div\> or \<span\>__ text that shows the temperature in Celsius (e.g., 25°C).   
+2.- (Physical temp sensor) A __\<input\>__ of type range or slider that simulates the temperature input from a sensor from -40°C to +125°C.    
+3.- (Physical Button) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point up (+1 °C)    
+4.- (Physical Button) A __\<button\>__ that will trigger the _temperature set mode_ and move the temperature set point down (-1 °C)   
+5.- (Physical Button) A __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". 
 
 
 **FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam.   
