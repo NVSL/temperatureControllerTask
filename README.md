@@ -112,7 +112,7 @@ Is your task to figure out the electrical component name (e.g., physical-button)
 
 **SECOND TASK (EAGLE):** 
 
-For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. Only the ealge temperature part (mcp9808) library is provided in ```Your_Name/eaglePCB/MCP9808.lbr```, figure out which other parts you need and how make the layout connections that match the ```hardware.css``` file.    
+For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. All eagle parts are provided in ```Your_Name/eaglePCB/tempControllerParts.lbr```. I/O connections must match the ```hardware.css``` file.    
 
 Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amalgamApp/eaglePCB```. 
 
