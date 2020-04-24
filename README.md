@@ -17,7 +17,7 @@ From the HTML elements in ```app.html``` only the temperature text must remain. 
 5.- __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". (Must be a physical led)   
 
 
-**FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam that match the list above, follow the examples.   
+**FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors needed by Amalgam and that match the list above, follow the examples.   
     
 Example 1: HTML button to physical button. 
 ```html
@@ -43,7 +43,7 @@ Example 2: HTML Input slider to physcial i2c potentiometer
 }
 ```
 
-Is your task to figure out the electrical component name (e.g., physical-button) and required values (e.g, gpio:4) to use for a raspberry Pi connector. Use the following list to choose the correct electrical component name.
+Is your task to figure out the electrical component name tag (e.g., physical-button) and required values (e.g, gpio:4) to use for a raspberry Pi connector. Use the following list to choose the correct electrical component name.
 
 ```css
 #<YourElementId> {
@@ -90,7 +90,7 @@ Appliancizer website: https://appliancizer.com/
 
 
 ## ---
-Finally commit: Your ```hardware.css``` file, PCB files and generated Amalgam zip to the repo. Send me an email when you push your work and also send me your times. 
+Finally commit: Your ```hardware.css``` file, PCB files (.sch, .brd, gerger files) and the generated Amalgam zip to the repo. Send me an email when you push your work and also send me your times. 
 
 | TASK | TIMES |
 | ----------| ----------------|
