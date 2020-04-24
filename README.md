@@ -3,28 +3,29 @@
 You have the task of building a temperature controller system that will eventually replace my old line of controllers for [glass door coolers](http://tor-rey-refrigeration.com/glass-door-coolers/). You will develop the temperature controller using two different web tools: Amalgam and Appliancizer.
 
 ## Temperature Controller Software 
-Temperature Controller software provided in ```Your_Name/amalgamApp/app.html```
+The temperature controller software is provided in ```Your_Name/amalgamApp/app.html```
 
 ## Building the Temperature Controller with Amalgam (Measure the time you spent writing the CSS and building the Eagle PCB spearately)
 
 After checking the ```app.html``` code it's time to indicate to the Amalgam tool which HTML elements you want them to be physical. The physcial electrical components will interact with a raspberry Pi 2/3/4 connector. 
 
 From the HTML elements in ```app.html``` only the temperature text must remain. All other HTML elements must be physical. Follow the following list:    
-1.-  __\<div\>__ text that shows the temperature in Celsius (e.g., 25°C). (Must be on Screen)     
-2.- __\<input\>__ slider that simulates the temperature input from a sensor from -40°C to +125°C. (Physical temp sensor)      
-3.- __\<button\>__ temperature set point up (+1 °C). (Physical button)   
-4.- __\<button\>__ temperature set point down (-1 °C). (Physical button)   
-5.- __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". (Physical led)   
+1.-  __\<div\>__ text that shows the temperature in Celsius (e.g., 25°C). (Must remain on Screen)     
+2.- __\<input\>__ temperature sensor input slider with range from -40°C to +125°C. (Must be a physical temp sensor)      
+3.- __\<button\>__ temperature set point up (+1 °C). (Must be a physical button)   
+4.- __\<button\>__ temperature set point down (-1 °C). (Must be a physical button)   
+5.- __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". (Must be a physical led)   
 
 
 **FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam that match the list above, follow the examples.   
     
 Example 1: HTML button to physical button. 
 ```html
+<!-- example.html -->
 <button id="myInput"> BUTTON TEXT </button>
 ```
-hardware.css
 ```css
+/* hardware.css */
 #myInput {
   hardware: physical-button(gpio:4);
 }
@@ -32,10 +33,11 @@ hardware.css
 
 Example 2: HTML Input slider to physcial i2c potentiometer
 ```html
+<!-- example.html -->
 <input type="range" id="mySensor" min="0" max="10" step="1" value="0">
 ```
-hardware.css
 ```css
+/* hardware.css */
 #mySensor {
   hardware: physical-pot(i2c-port:url("/dev/i2c-1"), i2c-addr:0x40);
 }
@@ -73,7 +75,7 @@ Is your task to figure out the electrical component name (e.g., physical-button)
 
 **SECOND TASK (EAGLE):** 
 
-For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. All eagle parts are provided in ```Your_Name/eaglePCB/tempControllerParts.lbr```. Connections must match the port paths and gpio numbers in the ```hardware.css``` file.    
+For the second task you must make a PCB that will connect to a Raspberry Pi 40-pin connector. You will require a temperature sensor, two buttons, and a led. All eagle parts are provided in ```Your_Name/eaglePCB/tempControllerParts.lbr```. Connections must match the port paths and gpio numbers in the ```hardware.css``` file.    
 
 Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amalgamApp/eaglePCB```. 
 
@@ -81,10 +83,10 @@ Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amal
 ## Building the Temperature Controller with Appliancizer (Measure the time you spent using appliancizer until you download the PCB)
 
 Appliancizer website: https://appliancizer.com/    
-- Add the temperature software code using the ADD WEB PAGE+ Button, then click INJECT. 
+- Add the temperature software code using the "ADD WEB PAGE+" Button, then click "INJECT". 
 - Choose any screen size.
-- Drag and Drop Components to the PCB area.
-- Click Build, then Generate PCB File and save the generated zip files in ```Your_Name/amalgamApp/applaincizerZip```.    
+- Drag and Drop Components to the PCB area following the list provided in the Amalgam section. 
+- Click "Build", then click "Generate PCB File" and save the generated zip files in ```Your_Name/amalgamApp/applaincizerZip```.    
 
 
 ## ---
