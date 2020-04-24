@@ -17,9 +17,9 @@ From the HTML elements in ```app.html``` only the temperature text must remain. 
 5.- __\<span\>__ text that will show "ON" if the temperature is greater than the temperature set point, else "OFF". (Physical led)   
 
 
-**FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam that match the list, follow the examples.   
+**FIRST TASK (CSS):** Add to the ```hardware.css``` file located in ```Your_Name/amalgamApp/``` the required hardware css selectors required by Amalgam that match the list above, follow the examples.   
     
-Example 1: Make a HTML button physical. 
+Example 1: HTML button to physical button. 
 ```html
 <button id="myInput"> BUTTON TEXT </button>
 ```
@@ -30,7 +30,7 @@ hardware.css
 }
 ```
 
-Example 2: Make a range slider interact with a i2c potentiometer
+Example 2: HTML Input slider to physcial i2c potentiometer
 ```html
 <input type="range" id="mySensor" min="0" max="10" step="1" value="0">
 ```
@@ -41,10 +41,10 @@ hardware.css
 }
 ```
 
-Is your task to figure out the electrical component name (e.g., physical-button) and which gpios and i2c-ports to use for the raspberry Pi connector. Use the following list to choose the correct electrical component name.
+Is your task to figure out the electrical component name (e.g., physical-button) and required values (e.g, gpio:4) to use for a raspberry Pi connector. Use the following list to choose the correct electrical component name.
 
 ```css
-#<elementId> {
+#<YourElementId> {
   hardware: <electrical component name tag> (required value 1, requred value 2, ...);
 }
 ```
@@ -73,7 +73,7 @@ Is your task to figure out the electrical component name (e.g., physical-button)
 
 **SECOND TASK (EAGLE):** 
 
-For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. All eagle parts are provided in ```Your_Name/eaglePCB/tempControllerParts.lbr```. I/O connections must match the ```hardware.css``` file.    
+For the second task you must make a PCB that will connect to the Raspberry Pi 40-pin connector and integrate all hardware parts you require for the temperature sensor, two buttons, and a led. All eagle parts are provided in ```Your_Name/eaglePCB/tempControllerParts.lbr```. Connections must match the port paths and gpio numbers in the ```hardware.css``` file.    
 
 Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amalgamApp/eaglePCB```. 
 
@@ -83,3 +83,19 @@ Save your schematic (\*.sch) board (\*sch) and gerber files in ```Your_Name/amal
 Appliancizer website: https://appliancizer.com/     
 - Choose any screen size.      
 - Save the generated zip files in ```Your_Name/amalgamApp/applaincizerZip```.    
+
+
+## ---
+Finally commit: Your ```hardware.css``` file, PCB files and generated Amalgam zip to the repo. Send me an email when you push your work and also send me your times. 
+
+| TASK | TIMES |
+| ----------| ----------------|
+| Devon       |  |
+| Amalgam, first taks  | ? | 
+| Amalgam, second task | ? | 
+| Appliancizer         | ? |  
+| Steve       |  |
+| Amalgam, first taks  | ? | 
+| Amalgam, second task | ? | 
+| Appliancizer         | ? |  
+
