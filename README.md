@@ -90,7 +90,7 @@ Appliancizer website: https://appliancizer.com/
 
 
 ## ---
-Finally commit: Your ```hardware.css``` file, PCB files (.sch, .brd, gerger files) and the generated Amalgam zip to the repo. Send me an email when you push your work and also send me your times. 
+Finally commit: Your ```hardware.css``` file, PCB files (.sch, .brd, gerber files) and the generated Amalgam zip to the repo. Send me an email when you push your work and also send me your times. 
 
 | TASK | TIMES |
 | ----------| ----------------|
