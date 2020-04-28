@@ -1,11 +1,11 @@
 #<tempUP> {
-  hardware: <physical-button> (4);
+  hardware: physical-button(4);
 }
 
 #<tempDOWN> {
-  hardware: <physical-button> (17);
+  hardware: physical-button(17);
 }
 
 #<mySensor> {
-  hardware: <physical-temp-sensor> (i2c-port:url("/dev/i2c-1"), i2c-addr:0x18);
+  hardware: physical-temp-sensor(i2c-port:url("/dev/i2c-1"), i2c-addr:0x18);
 }
