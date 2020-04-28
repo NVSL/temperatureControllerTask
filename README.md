@@ -95,9 +95,9 @@ Finally commit: Your ```hardware.css``` file, PCB files (.sch, .brd, gerber file
 | TASK | TIMES |
 | ----------| ----------------|
 | Devon       |  |
-| Amalgam, first taks  | ? | 
+| Amalgam, first taks  | 6 minutes | 
 | Amalgam, second task | ? | 
-| Appliancizer         | ? |  
+| Appliancizer         | 4 minutes 30 seconds |  
 | Steve       |  |
 | Amalgam, first taks  | ? | 
 | Amalgam, second task | ? | 
