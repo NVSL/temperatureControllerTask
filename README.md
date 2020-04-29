@@ -99,7 +99,7 @@ Finally commit: Your ```hardware.css``` file, PCB files (.sch, .brd, gerber file
 | Amalgam, second task | 15 minutes 30 seconds + 10 minutes to do gerbers (I'm not sure I did the gerbers right. Also not sure I did the pull up resistors right, because I'm not sure which pins are NC/NO on the button.) | 
 | Appliancizer         | 4 minutes 30 seconds |  
 | Steve       |  |
-| Amalgam, first taks  | ? | 
-| Amalgam, second task | ? | 
-| Appliancizer         | ? |  
+| Amalgam, first taks  | 7:37 | 
+| Amalgam, second task | 14:16 | 
+| Appliancizer         | 3:39 |  
 

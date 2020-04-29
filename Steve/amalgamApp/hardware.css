@@ -1,0 +1,18 @@
+
+#tempUP {
+    hardware : physical-button(gpio:4);
+}
+
+#tempDOWN{
+    hardware : physical-button(gpio:5);
+}
+
+#mySensor {
+    hardware : physical-temp-sensor(i2c-port:url("/dev/i2c-1"), i2c-addr:0x18);
+}
+
+#myOutput {
+    hardware : physical-output(gpio:6);
+}
+
+// 6:47 to do amalgam.
